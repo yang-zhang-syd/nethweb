@@ -11,7 +11,7 @@ namespace NethWeb.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return File("~/dist/index.html", "text/html");
         }
 
         public IActionResult Error()
